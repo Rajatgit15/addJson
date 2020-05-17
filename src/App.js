@@ -1,15 +1,24 @@
 import React from 'react';
+import PostForm from './PostForm';
+import AllPost from './AllPost';
 
 import './App.css';
 
-
-
-function App(){
-  return(
-    <div>
-     
-    </div>
-  )
+class App extends React.Component{
+  render(){
+    return(
+      <div className="App">
+        <div className = "navbar">
+          <h2 className="center">Post It</h2>
+          </div>
+        <PostForm/>
+        <AllPost/>
+        
+      </div>
+    )
+  }
 }
 
-export default App;
+
+export default App
+
