@@ -1,19 +1,17 @@
 import React from 'react';
-import PostForm from './PostForm';
-import AllPost from './AllPost';
+import Add from './Add'
+
+import data from './data.json'
 
 import './App.css';
+
+const columns_data = data
 
 class App extends React.Component{
   render(){
     return(
       <div className="App">
-        <div className = "navbar">
-          <h2 className="center">Post It</h2>
-          </div>
-        <PostForm/>
-        <AllPost/>
-        
+        <Add test =  {columns_data} />
       </div>
     )
   }
