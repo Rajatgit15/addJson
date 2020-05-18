@@ -2,7 +2,7 @@
   "name": "practical",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Rajatgit15.github.io/add_json",
+  "homepage": "https://Rajatgit15.github.io/addJson",
   "dependencies": {
     "@mojs/core": "^0.288.2",
     "@testing-library/jest-dom": "^4.2.4",
